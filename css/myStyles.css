@@ -1,0 +1,258 @@
+header {
+  background-color: #373f48;
+}
+
+.navbar-custom {
+  min-height: 80px;
+}
+
+.logo {
+  margin-top: -10px;
+}
+
+.ul-mg-custom {
+  justify-content: center;
+}
+
+.navbar-collapse-custom {
+  flex-grow: unset;
+}
+
+.container-f-custom {
+  align-items: center;
+}
+
+.button.bg-transparent {
+  min-width: 174px;
+  max-width: 174px;
+  height: 44px;
+  border: 1px solid #e9cd7b;
+  border-radius: 4px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #e9cd7b;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  flex-grow: unset;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item-custom {
+  padding-right: 25px;
+}
+
+.nav-link-custom {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  max-height: 40px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  transition: color 0.2s linear;
+  text-decoration: none;
+  max-width: 174px;
+  flex-grow: unset;
+}
+
+.nav-link.active {
+  color: #e9cd7b;
+  border-bottom: 1px solid #e9cd7b;
+}
+
+.nav-link-custom:hover {
+  color: #e9cd7b;
+  border-bottom: 1px solid #e9cd7b;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.breadcrumb-custom {
+  margin-top: 41px;
+  margin-left: 165px;
+}
+
+.breadcrump-ref {
+  text-decoration: none;
+  color: #9b9fa3;
+}
+
+.breadcrump-ref:hover {
+  color: grey;
+}
+
+h1 {
+  margin-top: 75px;
+  margin-left: 165px;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 55px;
+  color: #373f48;
+  text-shadow: 0px 4px 4px rgba(19, 10, 10, 0.25);
+}
+
+h2 {
+  margin-bottom: 12px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #373f48;
+}
+
+p {
+  max-width: 287px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #373f48;
+}
+
+.textbox-item {
+  width: 370px;
+  padding-left: 45px;
+  padding-top: 30px;
+  padding-bottom: 27px;
+  padding-right: 27px;
+  transition: 0.2s linear;
+  border: 1px solid;
+  border-color: transparent;
+}
+
+.textbox-item:hover {
+  border: 1px solid #eac55e;
+  border-radius: 4px;
+}
+
+.more-info {
+  text-decoration: none;
+  margin-top: 22px;
+  width: 70px;
+  height: 20px;
+  opacity: 0;
+  transition: 0.2s linear;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textbox-item:hover > .more-info {
+  opacity: 1;
+  color: #eac55e;
+}
+
+.row.textbox {
+  margin-left: 120px;
+  margin-top: 95px;
+}
+
+hr {
+  border: 1px;
+  height: 1px;
+  background-image: linear-gradient(
+    270deg,
+    rgba(55, 63, 72, 0.5) 0%,
+    rgba(55, 63, 72, 0.9) 50.5%,
+    rgba(55, 63, 72, 0.5) 99.96%
+  );
+}
+
+.contacts-row {
+  margin-left: 135px;
+  margin-bottom: 140px;
+}
+
+.conacts-block {
+  padding-top: 45px;
+  padding-right: 120px;
+}
+
+h3 {
+  margin-bottom: 15px;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  line-height: 20px;
+  color: #373f48;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arefs {
+  width: 140px;
+}
+
+.arefs > a {
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #373f48;
+}
+
+.image {
+  margin-right: 25px;
+}
+
+.conacts-block > p {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 300px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #373f48;
+}
+
+.classic-button {
+  min-width: 174px;
+  max-width: 174px;
+  height: 45px;
+  margin-top: 20px;
+  background: #eac55e;
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  line-height: 18px;
+  color: #575c61;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  background-color: #e6e6e6;
+}
+
+.copyright {
+  min-height: 66px;
+  /* margin-top: 160px; */
+  margin-left: 60px;
+}
+.copyright > p {
+  margin-top: 23px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #373f48;
+}
+
+.copyright {
+  background-color: #e6e6e6;
+}
